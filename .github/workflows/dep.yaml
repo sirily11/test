@@ -1,0 +1,14 @@
+name: conventional-pr
+on:
+  workflow_dispatch
+    
+jobs:
+  outdater:
+    runs-on: ubuntu-latest
+    name: Dependencies outdater
+    steps:
+      - uses: actions/checkout@v2
+      - name: Dependencies Outdater
+        uses: action-runner/dependencies-outdater@master
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sirily11/test.git",
+  "author": "sirily11 <sirily1997@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.0"
+  }
+}
