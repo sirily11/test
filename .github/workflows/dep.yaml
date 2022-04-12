@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Dependencies Outdater
-        uses: action-runner/dependencies-outdater@fix
+        uses: action-runner/dependencies-outdater@rename
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
